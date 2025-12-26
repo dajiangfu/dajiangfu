@@ -1,62 +1,87 @@
-<!DOCTYPE html>
-<html lang="zh">
+<div align="center">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-  <meta name="description" content="初音未来版本的通过点击/触摸播放声音并出现变化图案的互动内容。">
-  <title>Mikutap</title>
-  <link rel="apple-touch-icon" href="icon.png">
-  <link href="https://fonts.loli.net/css?family=Quicksand:400" rel="stylesheet">
-  <link charset="UTF-8" href="shared/sp/css/common.css" rel="stylesheet">
-  <link charset="utf-8" href="css/mikutap.css" rel="stylesheet">
-  <script charset="utf-8" src="https://cdnjs.loli.net/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
-  <script charset="utf-8" src="https://cdnjs.loli.net/ajax/libs/pixi.js/3.0.11/pixi.min.js" type="text/javascript"></script>
-  <script charset="utf-8" src="https://cdnjs.loli.net/ajax/libs/gsap/1.19.1/TweenMax.min.js" type="text/javascript"></script>
-  <script charset="UTF-8" src="shared/js/common-2.min.js" type="text/javascript"></script>
-  <script charset="utf-8" src="js/mikutap.min.js" type="text/javascript"></script>
-</head>
+# 👋 Hi, I'm da jiangfu
 
-<body>
-  <div id="view"></div>
-  <div id="scene_top">
-    <h1>Mikutap</h1>
-    <div id="ng">
-      <p class="atten">十分抱歉<br>您的浏览器并不支持本页面需要的特性</p>
-    </div>
-    <div class="ok">
-      <p id="bt_start"><a href="">!开始!</a></p>
-    </div>
-    <p id="bt_about"><a href="">*关于*</a></p>
-    <div class="ok">
-      <p class="attention">※请打开声音并享受。</p>
-    </div>
-     <div class="ok">
-     <p class="tit"><strong>注意！搬运内容，原页面(Origin Site): <a href="https://aidn.jp/mikutap">https://aidn.jp/mikutap</a></strong></p>
-    </div>
-  </div>
-  <div id="scene_loading">
-    <hr size="1" color="#fff"> </div>
-  <div id="scene_main">
-    <div class="set">
-      <p class="attention">点击 &amp; 拖动或者按任意键!</p>
-      <p id="bt_backtrack"><a href="">背景音乐: 开启</a></p>
-    </div>
-  </div>
-  <div id="about_cover"></div>
-  <div id="about">
-    <div id="about_in">
-      <p class="close"><span id="bt_close">×</span></p>
-      <p class="con"> 声音来源 <a href="https://ec.crypton.co.jp/pages/prod/vocaloid/mikuv4x" target="_blank">Hatsune Miku</a> </p>
-      <p class="con"> 作者 <a href="https://aidn.jp" target="_blank">daniwell</a> (<a href="https://twitter.com/daniwell_aidn" target="_blank">twitter</a>) </p>
-      <p class="con"> 搬运 <a href="https://github.com/dajiangfu" target="_blank">大匠夫</a> </p>
-      <p class="link"> 灵感来源 <a href="http://patatap.com/" target="_blank">Patatap</a><br>(令人赞叹的网页!)</p>
-    </div>
-  </div>
-  <div id="bt_back">＜返回</div>
-  <div id="bt_fs">□全屏显示</div>
-</body>
+**Hardware · Virtualization · NAS · FOSS · Self-Hosting**
 
-</html>
+<img src="https://readme-typing-svg.herokuapp.com?size=18&duration=4000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Hardware+Circuit+Designer;Homelab+%26+Virtualization+Enthusiast;Open+Source+%7C+Self+Hosting+%7C+NAS;Make+Things+Reliable%2C+Not+Flashy" />
+
+</div>
+
+---
+
+## 🧠 About Me
+
+- 🔧 **硬件电路设计从业者**，关注稳定性、可维护性与工程美感  
+- 🖥️ 深度使用 **虚拟化 / 容器 / NAS / 自建服务**
+- 🧪 喜欢研究 **系统底层行为**、性能与安全的边界
+- 🐧 倾向 **FOSS（自由开源软件）**，反感不必要的黑盒
+- 📦 信奉：  
+  > *“系统不需要炫技，只需要在需要的时候永不宕机。”*
+
+---
+
+## 🛠️ Tech Stack & Environment
+
+### 💻 Hardware
+- **CPU**: Intel i5-13500  
+- **GPU**: Intel UHD 770 (SR-IOV 虚拟化)  
+- **Board / SBC**: NanoPi R2S  
+- **Storage**: 多盘位 NAS / SATA & NVMe 混合  
+- **Audio**: TI DAC128S085 ×3（STM32 + SPI 级联）
+
+### 🧰 Software & Systems
+- **Hypervisor**: Proxmox VE (PVE)
+- **Container**: Docker / Docker Compose
+- **NAS / Media**: Jellyfin / Navidrome
+- **Sync / Backup**: Syncthing
+- **Network**: IPv6 / 流量卸载 / SR-IOV
+- **OS**: Debian / OpenWrt / FOSS Android (Bliss OS)
+
+---
+
+## 📌 What I Care About
+
+- ⚙️ **性能不是参数，是行为**
+- 🔒 **安全不是口号，是默认值**
+- 📖 **配置要能被未来的自己看懂**
+- 🌱 **系统复杂，但使用必须简单**
+
+---
+
+## 📂 Repositories Focus
+
+- 🧪 **Homelab & NAS 实战配置**
+- 🔍 **系统日志 / 行为分析**
+- 🧠 **硬件 + 软件协同设计**
+- 📘 **长期可维护的配置文档**
+
+> 如果一个项目没有 README，  
+> 那它只是“能跑”，不是“工程”。
+
+---
+
+## 🌏 Philosophy
+
+> **幻想不是逃避现实，而是为现实提供一个更高的参照系。**  
+> —— 灵感来自 *Enya · Caribbean Blue*
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=da-jiangfu&show_icons=true&theme=github_dark&hide_border=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=da-jiangfu&layout=compact&theme=github_dark&hide_border=true" />
+
+</div>
+
+---
+
+<div align="center">
+
+### 🧘 Keep systems boring.  
+### 🚀 Make reliability exciting.
+
+</div>
